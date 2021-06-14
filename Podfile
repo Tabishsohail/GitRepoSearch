@@ -6,7 +6,6 @@ target 'GitRepoSearch' do
   use_frameworks!
 
   # Pods for GitRepoSearch
-     pod 'Alamofire', '~> 4.2.0'               #Required
      pod 'MBProgressHUD', '~> 1.0.0'           #Required
      pod 'Kingfisher', '~> 4.2.0'
      pod 'ReachabilitySwift', '~> 3.0'

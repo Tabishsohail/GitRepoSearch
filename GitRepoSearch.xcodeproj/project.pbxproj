@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3396C99E58A04B324AEA905C /* Pods_GitRepoSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD054F1EF725D4AD1FE77613 /* Pods_GitRepoSearchTests.framework */; };
+		3C6B0EBE26772647003FB370 /* GlobalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B0EBD26772647003FB370 /* GlobalService.swift */; };
+		3C6B0EC8267729B5003FB370 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B0EC7267729B5003FB370 /* AdminViewController.swift */; };
+		3C6B0ED026772AD8003FB370 /* AdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B0ECF26772AD8003FB370 /* AdminViewModel.swift */; };
+		3C6B0ED82677B50F003FB370 /* SearchResultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B0ED72677B50F003FB370 /* SearchResultsDetailViewController.swift */; };
 		3C6CB1642673D73A00452686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB1632673D73A00452686 /* AppDelegate.swift */; };
 		3C6CB1662673D73A00452686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB1652673D73A00452686 /* SceneDelegate.swift */; };
 		3C6CB1682673D73A00452686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB1672673D73A00452686 /* ViewController.swift */; };
@@ -24,6 +28,14 @@
 		3C6CB1CA2674480800452686 /* HTTPStatusCodes+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB1C92674480800452686 /* HTTPStatusCodes+Extension.swift */; };
 		3C6CB1D02674483D00452686 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB1CF2674483D00452686 /* Reachability.swift */; };
 		3C6CB1D62674489D00452686 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB1D52674489D00452686 /* ProgressHUD.swift */; };
+		3C6CB2492674A42400452686 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB2472674A42400452686 /* RepoTableViewCell.swift */; };
+		3C6CB24A2674A42400452686 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CB2482674A42400452686 /* RepoTableViewCell.xib */; };
+		3C6CB2582674AB5C00452686 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB2572674AB5C00452686 /* DetailViewController.swift */; };
+		3C6CB25D2674AC8300452686 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB25C2674AC8300452686 /* RepoModel.swift */; };
+		3C6CB2632674AEB700452686 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB2622674AEB700452686 /* ImageViewController.swift */; };
+		3C6CB26B2674DC2E00452686 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB26A2674DC2E00452686 /* HomeViewModel.swift */; };
+		3C6CB2732675318800452686 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB2722675318700452686 /* ImageViewExtension.swift */; };
+		3C6CB28226754CC400452686 /* Dictionary+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CB28126754CC400452686 /* Dictionary+extention.swift */; };
 		E91EDB922C01BD7DD1ED44F6 /* Pods_GitRepoSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867196CA4F2D46B0905D6DE3 /* Pods_GitRepoSearch.framework */; };
 		FC61CA038D561252E34E1290 /* Pods_GitRepoSearch_GitRepoSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CB64B1C037D965F6413469 /* Pods_GitRepoSearch_GitRepoSearchUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +61,10 @@
 		26CB64B1C037D965F6413469 /* Pods_GitRepoSearch_GitRepoSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRepoSearch_GitRepoSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		301E74A93A3A9A626F28A1D9 /* Pods-GitRepoSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoSearch.release.xcconfig"; path = "Target Support Files/Pods-GitRepoSearch/Pods-GitRepoSearch.release.xcconfig"; sourceTree = "<group>"; };
 		3BF4603AB886E8EE82D0E5FF /* Pods-GitRepoSearch-GitRepoSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoSearch-GitRepoSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-GitRepoSearch-GitRepoSearchUITests/Pods-GitRepoSearch-GitRepoSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C6B0EBD26772647003FB370 /* GlobalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalService.swift; sourceTree = "<group>"; };
+		3C6B0EC7267729B5003FB370 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		3C6B0ECF26772AD8003FB370 /* AdminViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewModel.swift; sourceTree = "<group>"; };
+		3C6B0ED72677B50F003FB370 /* SearchResultsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsDetailViewController.swift; sourceTree = "<group>"; };
 		3C6CB1602673D73A00452686 /* GitRepoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRepoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6CB1632673D73A00452686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6CB1652673D73A00452686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +87,14 @@
 		3C6CB1C92674480800452686 /* HTTPStatusCodes+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPStatusCodes+Extension.swift"; sourceTree = "<group>"; };
 		3C6CB1CF2674483D00452686 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		3C6CB1D52674489D00452686 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		3C6CB2472674A42400452686 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		3C6CB2482674A42400452686 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
+		3C6CB2572674AB5C00452686 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3C6CB25C2674AC8300452686 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		3C6CB2622674AEB700452686 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3C6CB26A2674DC2E00452686 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3C6CB2722675318700452686 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		3C6CB28126754CC400452686 /* Dictionary+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+extention.swift"; sourceTree = "<group>"; };
 		696ED736CA3977164143C4C5 /* Pods-GitRepoSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoSearch.debug.xcconfig"; path = "Target Support Files/Pods-GitRepoSearch/Pods-GitRepoSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		7FBA621990511A0A665A452E /* Pods-GitRepoSearch-GitRepoSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoSearch-GitRepoSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-GitRepoSearch-GitRepoSearchUITests/Pods-GitRepoSearch-GitRepoSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		867196CA4F2D46B0905D6DE3 /* Pods_GitRepoSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRepoSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +139,30 @@
 				DD054F1EF725D4AD1FE77613 /* Pods_GitRepoSearchTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C6B0EBC2677262B003FB370 /* SharedIntance */ = {
+			isa = PBXGroup;
+			children = (
+				3C6B0EBD26772647003FB370 /* GlobalService.swift */,
+			);
+			path = SharedIntance;
+			sourceTree = "<group>";
+		};
+		3C6B0EC6267729A1003FB370 /* AdminScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3C6B0EC7267729B5003FB370 /* AdminViewController.swift */,
+			);
+			path = AdminScreen;
+			sourceTree = "<group>";
+		};
+		3C6B0ED62677B4E5003FB370 /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				3C6B0ED72677B50F003FB370 /* SearchResultsDetailViewController.swift */,
+			);
+			path = SearchResults;
 			sourceTree = "<group>";
 		};
 		3C6CB1572673D73A00452686 = {
@@ -179,6 +227,7 @@
 		3C6CB1962673D79500452686 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				3C6B0EBC2677262B003FB370 /* SharedIntance */,
 				3C6CB1D42674488E00452686 /* ProgressView */,
 				3C6CB1CE2674482C00452686 /* Reachability */,
 			);
@@ -188,6 +237,8 @@
 		3C6CB1972673D79F00452686 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3C6CB26A2674DC2E00452686 /* HomeViewModel.swift */,
+				3C6B0ECF26772AD8003FB370 /* AdminViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -195,6 +246,10 @@
 		3C6CB1992673D7BF00452686 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3C6B0ED62677B4E5003FB370 /* SearchResults */,
+				3C6B0EC6267729A1003FB370 /* AdminScreen */,
+				3C6CB2612674AE9A00452686 /* ImageScreen */,
+				3C6CB24E2674AB3900452686 /* DetailScreen */,
 				3C6CB1A22673D8F900452686 /* HomeViewController.swift */,
 			);
 			path = Controllers;
@@ -203,6 +258,7 @@
 		3C6CB19A2673D7C700452686 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3C6CB25C2674AC8300452686 /* RepoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,8 +266,8 @@
 		3C6CB19B2673D7D800452686 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3C6CB16E2673D73F00452686 /* LaunchScreen.storyboard */,
-				3C6CB1692673D73A00452686 /* Main.storyboard */,
+				3C6CB1DF2674514100452686 /* TableViewCells */,
+				3C6CB1DE2674513800452686 /* Storyboards */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +287,8 @@
 			children = (
 				3C6CB1AB2673DB8300452686 /* View+Extension.swift */,
 				3C6CB1B02673DBD100452686 /* AlertViewExtension.swift */,
+				3C6CB2722675318700452686 /* ImageViewExtension.swift */,
+				3C6CB28126754CC400452686 /* Dictionary+extention.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -249,6 +307,40 @@
 				3C6CB1D52674489D00452686 /* ProgressHUD.swift */,
 			);
 			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		3C6CB1DE2674513800452686 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CB16E2673D73F00452686 /* LaunchScreen.storyboard */,
+				3C6CB1692673D73A00452686 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3C6CB1DF2674514100452686 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CB2472674A42400452686 /* RepoTableViewCell.swift */,
+				3C6CB2482674A42400452686 /* RepoTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		3C6CB24E2674AB3900452686 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CB2572674AB5C00452686 /* DetailViewController.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		3C6CB2612674AE9A00452686 /* ImageScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CB2622674AEB700452686 /* ImageViewController.swift */,
+			);
+			path = ImageScreen;
 			sourceTree = "<group>";
 		};
 		DEC6F79F95CFDC2231087634 /* Pods */ = {
@@ -375,6 +467,7 @@
 				3C6CB1702673D73F00452686 /* LaunchScreen.storyboard in Resources */,
 				3C6CB16D2673D73F00452686 /* Assets.xcassets in Resources */,
 				3C6CB16B2673D73A00452686 /* Main.storyboard in Resources */,
+				3C6CB24A2674A42400452686 /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,17 +595,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6CB2582674AB5C00452686 /* DetailViewController.swift in Sources */,
+				3C6CB25D2674AC8300452686 /* RepoModel.swift in Sources */,
+				3C6CB28226754CC400452686 /* Dictionary+extention.swift in Sources */,
 				3C6CB1682673D73A00452686 /* ViewController.swift in Sources */,
+				3C6CB26B2674DC2E00452686 /* HomeViewModel.swift in Sources */,
 				3C6CB1CA2674480800452686 /* HTTPStatusCodes+Extension.swift in Sources */,
+				3C6B0EBE26772647003FB370 /* GlobalService.swift in Sources */,
 				3C6CB1B12673DBD100452686 /* AlertViewExtension.swift in Sources */,
+				3C6B0EC8267729B5003FB370 /* AdminViewController.swift in Sources */,
 				3C6CB1C5267447E300452686 /* HTTPStatusCodes.swift in Sources */,
 				3C6CB1642673D73A00452686 /* AppDelegate.swift in Sources */,
+				3C6CB2632674AEB700452686 /* ImageViewController.swift in Sources */,
+				3C6B0ED026772AD8003FB370 /* AdminViewModel.swift in Sources */,
 				3C6CB1D62674489D00452686 /* ProgressHUD.swift in Sources */,
 				3C6CB1AC2673DB8300452686 /* View+Extension.swift in Sources */,
 				3C6CB1B62674473C00452686 /* HTTPRequest.swift in Sources */,
 				3C6CB1662673D73A00452686 /* SceneDelegate.swift in Sources */,
+				3C6CB2732675318800452686 /* ImageViewExtension.swift in Sources */,
+				3C6B0ED82677B50F003FB370 /* SearchResultsDetailViewController.swift in Sources */,
 				3C6CB1D02674483D00452686 /* Reachability.swift in Sources */,
 				3C6CB1A32673D8F900452686 /* HomeViewController.swift in Sources */,
+				3C6CB2492674A42400452686 /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
